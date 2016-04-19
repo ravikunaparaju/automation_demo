@@ -1,16 +1,13 @@
 # Calabash Automation for ViGo
 
-Check out latest code from github
 
-Framework is desgined to run tests on ios and Android using common feature files and step definitions.
+Page Object Model framework is desgined to run tests on ios and Android using common feature files and step definitions.
 
-For the demo purpose, I have installed latest build from Playstore and pulled the apk file from device for automation
+For the demo purpose, I have installed latest build from Playstore and pulled the apk file from device for automation.
 
-resign the apk file using the following command
 
-    calabash-android resign base.apk
+Test Scenarios:s 
 
-Test Scenarios:
 
 HomeScreenNavigation.feature:
     
@@ -23,8 +20,11 @@ This scenarios verifies user can launch the application and navigate to
     
 Login.feature:
 
-test scenario for inalid login error message when user enter invalid details
+Test scenario for inalid login error message when user enter invalid details
 
+resign the apk file using the following command.
+
+    calabash-android resign base.apk
 
 Running the tests:
 
