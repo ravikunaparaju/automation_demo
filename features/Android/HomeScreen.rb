@@ -16,6 +16,7 @@ class HomeScreen
 	end
 
 	def assertBanking
+		wait_for_element_exists("webview xpath:'//*[@name=\"userid\"]'")
 		element_exists "webview"
 	end
 
@@ -25,6 +26,7 @@ class HomeScreen
 	end
 
 	def assertMoneyGo
+		wait_for_element_exists("webview xpath:'//*[@name=\"userid\"]'")
 		element_exists "webview"
 	end
 
